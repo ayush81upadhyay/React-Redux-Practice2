@@ -37,7 +37,7 @@ const CountryDetail = () => {
              .then(res => res.json())
              .then(([bordercountry]) => bordercountry.name.common)
           })).then((borders) => {
-            setCountryData((prevState) => ({...prevState, borders}))
+            setTimeout(()=> setCountryData((prevState) => ({...prevState, borders})))
           }) 
   }
 
