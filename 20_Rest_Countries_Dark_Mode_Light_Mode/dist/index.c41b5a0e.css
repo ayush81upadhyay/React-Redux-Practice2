@@ -146,6 +146,10 @@ a {
   box-shadow: 0 0 8px #00000026;
 }
 
+.contact-container {
+  min-height: 100vh;
+}
+
 @media (width <= 768px) {
   .countries-container {
     justify-content: center;

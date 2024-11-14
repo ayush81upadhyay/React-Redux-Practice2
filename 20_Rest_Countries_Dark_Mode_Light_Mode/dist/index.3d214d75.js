@@ -35252,7 +35252,7 @@ const Error = ()=>{
     }, void 0, true, {
         fileName: "Components/Error.jsx",
         lineNumber: 8,
-        columnNumber: 5
+        columnNumber: 7
     }, undefined);
 };
 _s(Error, "ka+cpKW22VHsSCZlOmxDKEn6xYc=", false, function() {
@@ -35288,28 +35288,34 @@ const Contact = ()=>{
     _s();
     const [isDark] = (0, _reactRouterDom.useOutletContext)();
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        style: {
-            marginLeft: 425,
-            marginTop: 200
-        },
-        className: `${isDark ? "dark" : ""}`,
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "Developed by Ayush Upadhyay"
-            }, void 0, false, {
-                fileName: "Components/Contact.jsx",
-                lineNumber: 8,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Contact at github@ayush81upadhyay"
-            }, void 0, false, {
-                fileName: "Components/Contact.jsx",
-                lineNumber: 9,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
+        className: `contact-container ${isDark ? "dark" : ""}`,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            style: {
+                marginLeft: 425,
+                marginTop: 200
+            },
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    children: "Developed by Ayush Upadhyay"
+                }, void 0, false, {
+                    fileName: "Components/Contact.jsx",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    children: "Contact at github@ayush81upadhyay"
+                }, void 0, false, {
+                    fileName: "Components/Contact.jsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "Components/Contact.jsx",
+            lineNumber: 8,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "Components/Contact.jsx",
         lineNumber: 7,
         columnNumber: 5

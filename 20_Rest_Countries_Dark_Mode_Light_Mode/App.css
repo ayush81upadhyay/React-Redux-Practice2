@@ -150,6 +150,10 @@ a {
     color: var(--text-color);
 }
 
+.contact-container{
+    min-height: 100vh;
+}
+
 @media(max-width: 768px) {
     .countries-container {
         justify-content: center;
