@@ -35331,10 +35331,10 @@ const CountryDetail = ()=>{
         Promise.all(data.borders.map((border)=>{
             return fetch(`https://restcountries.com/v3.1/alpha/${border}`).then((res)=>res.json()).then(([bordercountry])=>bordercountry.name.common);
         })).then((borders)=>{
-            setCountryData((prevState)=>({
-                    ...prevState,
-                    borders
-                }));
+            setTimeout(()=>setCountryData((prevState)=>({
+                        ...prevState,
+                        borders
+                    })));
         });
     };
     (0, _react.useEffect)(()=>{
